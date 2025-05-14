@@ -1,0 +1,27 @@
+
+.cell {
+  content: '';
+  width: 40px;
+  height: 40px;
+  transition: filter .1s ease-in-out;
+}
+
+.cell:hover {
+  filter: brightness(2);
+}
+
+.wall {
+  background-color: darkcyan;
+}
+
+.path {
+  background-color: white;
+}
+
+.start {
+  background-color: yellow;
+}
+
+.goal {
+  background-color: purple;
+}
