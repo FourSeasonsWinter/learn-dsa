@@ -1,9 +1,8 @@
-
 .cell {
   content: '';
   width: 40px;
   height: 40px;
-  transition: filter .1s ease-in-out;
+  transition: filter 0.1s ease-in-out;
 }
 
 .cell:hover {
@@ -24,4 +23,16 @@
 
 .goal {
   background-color: purple;
+}
+
+.agent {
+  background-color: darkblue;
+}
+
+.explored {
+  background-color: darkred;
+}
+
+.solution {
+  background-color: gold;
 }
