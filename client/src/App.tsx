@@ -48,7 +48,7 @@ function App() {
       } else if (cells[i] === CellType.Goal) hasGoal = true
     }
 
-    if (!hasGoal && !hasStart) {
+    if (!hasGoal || !hasStart) {
       setErrorMessage('The maze needs a start cell and a goal cell')
       return false
     }
